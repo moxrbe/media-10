@@ -22,15 +22,15 @@ body {
 
 /* header start */
 
-.header__partner {
-    background: url(../img/header.png) no-repeat center/cover;
-    height: 115vh;
+.header{
+    min-height: 100vh;
+    
 }
 
-.partner__logo {
-    padding-top: 41.84px;
-    padding-bottom: 318.67px;
-}
+
+
+
+
 
 .partner__title {
     color: #fff;
@@ -44,7 +44,7 @@ body {
     font-size: 16px;
     font-family: 'OpenSans';
     font-weight: normal;
-    padding-bottom: 221px;
+    text-align: center;
 }
 
 
@@ -54,7 +54,6 @@ body {
     font-size: 11px;
     font-family: 'OpenSans';
     letter-spacing: 3.7px;
-    padding-bottom: 71px;
     transition: 5s;
 }
 
@@ -62,6 +61,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url(../img/header.png) no-repeat center center / cover;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 20px 0;
 }
 
 .container__nav {
